@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person uuid="1706377736">
+<name>Maria</name>
+<patterns>
+<person uuid="468121027">
+<name>João</name>
+</person>
+<childrens>
+<person uuid="1804094807">
+<name>Mariana</name>
+</person>
+<person uuid="951007336">
+<name>Clara</name>
+<patterns>
+<person uuid="2001049719">
+<name>José</name>
+</person>
+</patterns>
+</person>
+</childrens>
+</patterns>
+</person>
