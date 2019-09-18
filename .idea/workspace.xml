@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75ba9dde-52b0-4ae9-ae81-215c845ada23" name="Default Changelist" comment="">
+    <list default="true" id="b0823740-a59c-4678-91af-75686e3c0723" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/marcoandra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcoandra/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/marcoandra/export/ExportToJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcoandra/export/ExportToJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/marcoandra/export/ExportToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcoandra/export/ExportToXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-tree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/family-tree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/marcoandra/tree/IPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcoandra/tree/IPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/marcoandra/tree/PersonComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcoandra/tree/PersonComposite.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,24 +21,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1QswCZ2I2q8w1yRLyc8LFKJCfE5" />
+  <component name="ProjectId" id="1QwUkuJ94fKg57jbfHknqwELrLe" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,65 +40,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.marcoandra.escola.Main" />
-      <module name="family-tree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.marcoandra.escola.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.marcoandra.pessoas.Main" />
-      <module name="family-tree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.marcoandra.pessoas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.marcoandra.arvore.Main" />
-      <module name="family-tree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.marcoandra.arvore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.marcoandra.trabalho.Main" />
-      <module name="family-tree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.marcoandra.trabalho.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.marcoandra.Main" />
       <module name="family-tree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.marcoandra.export.*" />
+          <option name="PATTERN" value="de.marcoandra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,10 +57,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -125,24 +65,22 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="75ba9dde-52b0-4ae9-ae81-215c845ada23" name="Default Changelist" comment="" />
-      <created>1568572484510</created>
+      <changelist id="b0823740-a59c-4678-91af-75686e3c0723" name="Default Changelist" comment="" />
+      <created>1568681298658</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568572484510</updated>
-      <workItem from="1568660096527" duration="2438000" />
+      <updated>1568681298658</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

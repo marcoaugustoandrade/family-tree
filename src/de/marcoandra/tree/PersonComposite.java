@@ -1,6 +1,7 @@
 package de.marcoandra.tree;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class PersonComposite implements IPerson{
@@ -18,8 +19,18 @@ public class PersonComposite implements IPerson{
     }
 
     @Override
+    public int getUUID() {
+        return uuid;
+    }
+
+    @Override
     public String getName() {
         return name;
+    }
+
+    @Override
+    public char getSexo() {
+        return 0;
     }
 
     @Override
@@ -77,11 +88,11 @@ public class PersonComposite implements IPerson{
         if (!partners.isEmpty()){
             for (IPerson p: partners){
                 System.out.println("Name: " + p.getName());
-                if (!p.getChildrens().isEmpty()){
-                    for (IPerson c: p.getChildrens()){
-                        System.out.println("Name: " + c.getName());
+                    if (!p.getChildrens().isEmpty()){
+                        for (IPerson c: p.getChildrens()){
+                            System.out.println("Name: " + c.getName());
+                        }
                     }
-                }
             }
         }
     }

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<person uuid="1706377736">
+<person uuid="1975358023">
 <name>Maria</name>
 <patterns>
-<person uuid="468121027">
+<person uuid="2101440631">
 <name>João</name>
 </person>
 <childrens>
-<person uuid="1804094807">
+<person uuid="2109957412">
 <name>Mariana</name>
 </person>
-<person uuid="951007336">
+<person uuid="901506536">
 <name>Clara</name>
 <patterns>
-<person uuid="2001049719">
+<person uuid="747464370">
 <name>José</name>
 </person>
 </patterns>

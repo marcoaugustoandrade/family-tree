@@ -4,7 +4,14 @@ import java.util.List;
 
 public interface IPerson {
 
+    int getUUID();
     String getName();
+    char getSexo();
+    // Data de nascimento
+    // Local de nascimento
+    // Data de falecimento
+    // Local de falecimento
+
 
     void addPartner(IPerson partner);
     IPerson removePartner(String name);
