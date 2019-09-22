@@ -35,7 +35,7 @@ public class PersonComposite implements IPerson{
 
     @Override
     public void addPartner(IPerson partner) {
-        partners.add((PersonComposite) partner);
+        partners.add(partner);
     }
 
     @Override
@@ -60,7 +60,7 @@ public class PersonComposite implements IPerson{
 
     @Override
     public void addChildren(IPerson children) {
-        childrens.add((PersonComposite) children);
+        childrens.add(children);
     }
 
     @Override

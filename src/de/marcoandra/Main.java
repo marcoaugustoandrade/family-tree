@@ -1,27 +1,31 @@
 package de.marcoandra;
 
 import de.marcoandra.export.Export;
+import de.marcoandra.tree.IPerson;
 import de.marcoandra.tree.PersonComposite;
+import de.marcoandra.tree.PersonLeaf;
 
 public class Main {
 
     public static <IExport> void main(String[] args) {
 
-        PersonComposite maria = new PersonComposite("Maria");
-        PersonComposite joao = new PersonComposite("João");
+        IPerson maria = new PersonComposite("Maria");
+        IPerson joao = new PersonComposite("João");
         maria.addPartner(joao);
 
-        PersonComposite mariana = new PersonComposite("Mariana");
-        PersonComposite clara = new PersonComposite("Clara");
+        // Mariana é folha na árvore (não tem relacionamentos)
+        IPerson mariana = new PersonLeaf("Mariana");
+        // Clara é composta por seus relacionamentos
+        IPerson clara = new PersonComposite("Clara");
         maria.getPartner("João").addChildren(mariana);
         maria.getPartner("João").addChildren(clara);
 
-        PersonComposite jose = new PersonComposite("José");
-        clara.addPartner(jose);
+//        IPerson jose = new PersonLeaf("José");
+//        clara.addPartner(jose);
 
         Export export = new Export();
         export.to("XML", "dados", maria);
-        export.to("JSON", "dados", maria);
+//        export.to("JSON", "dados", maria);
 
     }
 }

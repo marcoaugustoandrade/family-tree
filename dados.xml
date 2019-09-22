@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<person uuid="1975358023">
-<name>Maria</name>
-<patterns>
-<person uuid="2101440631">
-<name>João</name>
-</person>
-<childrens>
-<person uuid="2109957412">
-<name>Mariana</name>
-</person>
-<person uuid="901506536">
-<name>Clara</name>
-<patterns>
-<person uuid="747464370">
-<name>José</name>
-</person>
-</patterns>
-</person>
-</childrens>
-</patterns>
-</person>
+ <person uuid="1975358023">
+ <name>Maria</name>
+  <patterns>    
+ <person uuid="2101440631">
+ <name>João</name>
+ </person>
+    <childrens>        
+  <person uuid="901506536">
+  <name>Mariana</name>
+  </person>        
+   <person uuid="747464370">
+   <name>Clara</name>
+   </person>
+    </childrens>
+  </patterns>
+ </person>

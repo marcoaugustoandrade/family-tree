@@ -22,7 +22,7 @@ public class Export implements IExport{
             fileName += ".json";
         } else if (type.equals("XML")){
             exportToXML = new ExportToXML(person);
-            data = exportToXML.export(true);
+            data = exportToXML.export(true, 0);
             fileName += ".xml";
         }
 
