@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0823740-a59c-4678-91af-75686e3c0723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/marcoandra/Testes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/marcoandra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcoandra/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/marcoandra/export/Export.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcoandra/export/Export.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/marcoandra/export/ExportToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcoandra/export/ExportToXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/marcoandra/tree/PersonComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcoandra/tree/PersonComposite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/marcoandra/tree/PersonLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcoandra/tree/PersonLeaf.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +20,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QwUkuJ94fKg57jbfHknqwELrLe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
   </component>
@@ -44,13 +40,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainToXML">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.marcoandra.Main" />
       <module name="family-tree" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="de.marcoandra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainToXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.marcoandra.test.MainToXML" />
+      <module name="family-tree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.marcoandra.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainToXML" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Testes" />
       </list>
@@ -103,5 +113,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="518" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1569777389035">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state x="518" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/54.27.1312.741@54.27.1312.741" timestamp="1569777389035" />
+    <state x="467" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1569777263604">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state x="467" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/54.27.1312.741@54.27.1312.741" timestamp="1569777263604" />
+    <state width="356" height="581" key="GridCell.Tab.0.bottom" timestamp="1569796485424">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state width="356" height="581" key="GridCell.Tab.0.bottom/54.27.1312.741@54.27.1312.741" timestamp="1569796485424" />
+    <state width="356" height="581" key="GridCell.Tab.0.center" timestamp="1569796485423">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state width="356" height="581" key="GridCell.Tab.0.center/54.27.1312.741@54.27.1312.741" timestamp="1569796485423" />
+    <state width="356" height="581" key="GridCell.Tab.0.left" timestamp="1569796485423">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state width="356" height="581" key="GridCell.Tab.0.left/54.27.1312.741@54.27.1312.741" timestamp="1569796485423" />
+    <state width="356" height="581" key="GridCell.Tab.0.right" timestamp="1569796485423">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state width="356" height="581" key="GridCell.Tab.0.right/54.27.1312.741@54.27.1312.741" timestamp="1569796485423" />
   </component>
 </project>
